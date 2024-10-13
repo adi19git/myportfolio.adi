@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Kumar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="new1.jpeg" alt="Aditya Kumar" class="profile-photo">
+            <h1>MY PORTFOLIO</h1>
+            <p>Hello! My name is Aditya Kumar. I completed my diploma in Electrical Engineering and am currently pursuing my B.Tech in Computer Science at LPU, where I’m in my second year. I have a strong interest in the Internet of Things (IoT) and am eager to explore its applications. I also enjoy problem-solving through coding and creating user interfaces. In my free time, I love listening to music, which helps me relax and unwind. I'm excited about the future and the opportunities that lie ahead!</p>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="qualifications" class="qualifications glow">
+            <h2>Qualifications</h2>
+            <ul>
+                <li><strong>Diploma in Electrical Engineering:</strong> Focus on electrical systems and circuits.</li>
+                <li><strong>B.Tech in Computer Science (Ongoing):</strong> Expected graduation in 2027.</li>
+                <li><strong>Certification in PLC and SCADA:</strong> Industrial automation systems</li>
+            </ul>
+        </section>
+        <section id="projects" class="projects glow">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project glow">
+                    <h3>Anti Sleep Alarm for Drivers</h3>
+                    <p><strong>Description:</strong> In this project a complete driver alert system was implemented. The system is operated by a 9V DC battery. The device is small in size, has a low weight and it is user-friendly and reliable. The device detects the driver's prolonged eye blinking. Consequently, it alarms the driver and woke her/him up and stopped the car. This research achieves good results for the detection and analysis of prolonged eye blinking and may become a universal technique for human life saving in the future.</p>
+                    <a href="pro.jfif" target="_blank" class="show-image-btn">Show Project Image</a>
+                    <p><strong>Results:</strong> Successfully demonstrated effectiveness in trials.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="skills glow">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python, Java, C++</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Ms Office</li>
+                <li>PLC and SCADA Systems</li>
+                <li>Team Leadership, Problem-solving</li>
+            </ul>
+        </section>
+        
+        <section id="hire-me" class="hire-me glow">
+            <h2>Hire Me</h2>
+            <p>If you're looking for a dedicated and skilled developer for your next project, I'm here to help! I’m passionate about creating solutions that make a difference and can bring your ideas to life.</p>
+            <p>Feel free to reach out to discuss potential collaboration, freelance opportunities, or any questions you might have!</p>
+            <a href="contact.html" class="hire-me-button">Get in Touch</a>
+        </section>        
+    </main>
+
+    <section id="recent-posts" class="recent-posts glow">
+        <h2>Recent Posts</h2>
+        <div class="posts-container">
+            <div class="social-platform">
+                <h3>Instagram</h3>
+                <iframe src="https://www.instagram.com/p/C1GzTjZhz8d/embed" width="400" height="500" frameborder="0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="post-box linkedin">
+                <h4 style="font-size: 100%; color: rgb(77, 112, 169);">LinkedIn Update</h4>
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7250928464625557504" 
+                        height="500" 
+                        width="400" 
+                        frameborder="0" 
+                        allowfullscreen="" 
+                        title="Embedded post"></iframe>
+                <p><a href="https://www.linkedin.com/in/aditya-kumar-6634a92a5/" target="_blank">View My LinkedIn Activity</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <div class="footer-container">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:dyadityakumar@gmail.com"><i class="fas fa-envelope"></i> dyadityakumar@gmail.com</a></p>
+            <p>Phone: 9471646240</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aditya-kumar-6634a92a5" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.instagram.com/am.aadi19" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+            <p>&copy; 2024 Aditya Kumar. All rights reserved.</p>
+        </div>
+        <div class="map-container">
+            <h2>My Location</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.74807431485!2d75.70229287468453!3d31.25539666018728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f5e9c489cf3%3A0x4049a5409d53c300!2sLovely%20Professional%20University!5e0!3m2!1sen!2sin!4v1728763206904!5m2!1sen!2sin" 
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </footer>
+    
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
